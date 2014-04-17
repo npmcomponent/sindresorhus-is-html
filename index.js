@@ -1,5 +1,5 @@
 'use strict';
-var htmlTags = require('html-tags');
+var htmlTags = require('sindresorhus-html-tags');
 
 module.exports = function (str) {
 	if (/\s?<!doctype html>|(<html\b[^>]*>|<body\b[^>]*>|<x-[^>]+>)+/i.test(str)) {

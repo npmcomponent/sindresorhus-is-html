@@ -1,24 +1,7 @@
 {
-  "name": "is-html",
-  "version": "0.2.1",
+  "name": "sindresorhus-is-html",
   "description": "Check if a string is HTML",
-  "license": "MIT",
-  "repository": "sindresorhus/is-html",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha",
-    "browser": "browserify -s $npm_package_name -o browser.js ."
-  },
-  "files": [
-    "index.js"
-  ],
+  "version": "0.2.1",
   "keywords": [
     "html",
     "detect",
@@ -29,10 +12,7 @@
     "string"
   ],
   "dependencies": {
-    "html-tags": "^0.3.0"
+    "sindresorhus-html-tags": "git://github.com/npmcomponent/sindresorhus-html-tags.git"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "browserify": "^3.0.0"
-  }
+  "license": "MIT"
 }
